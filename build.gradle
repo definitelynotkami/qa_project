@@ -1,17 +1,19 @@
 plugins {
-    id 'java'
+    id 'java-library'
 }
-
-group = 'qa.project'
-version = '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
 }
 
+group 'guru.qa'
+version '1.0'
+
 dependencies {
-    testImplementation platform('org.junit:junit-bom:5.10.0')
-    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation (
+            'com.codeborne:selenide:6.16.0',
+            'org.junit.jupiter:junit-jupiter:5.9.3'
+    )
 }
 
 test {
