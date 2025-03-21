@@ -35,7 +35,7 @@ public class lesson3 {
     $("#subjectsInput").setValue("Maths").pressEnter();
     $("label[for='hobbies-checkbox-1']").click();
 
-    $("#uploadPicture").uploadFile(new File("/Users/kamilla/Desktop/capybara.jpg"));
+    $("#uploadPicture").uploadFile(new File("capybara.jpg"));
 
     $("#currentAddress").setValue("г. Москва, ул. Тихомирная, д.1, кв 67");
     $("#react-select-3-input").setValue("NCR").pressEnter();
