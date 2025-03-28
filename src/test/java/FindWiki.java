@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.*;
 
-public class Findwiki {
+public class FindWiki {
     @Test
     void wikiSelenide () {
         //Откройте страницу Selenide в Github
